@@ -4,8 +4,15 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: "Karla";
+    src:url(font/Karla-VariableFont_wght.ttf);
+}
+
+
 body{
     background-color:hsl(205, 20%, 83%) ;
+    font-family: "Karla";
 }
 main{
     width: 50vw;
@@ -18,8 +25,73 @@ main{
     padding: 2rem;
     line-height: 3rem;
 }
+.community h2{
+  color:  hsl(179, 62%, 43%);
+}
 .lil-text{
     line-height: 1.5rem; 
     color:hsla(216, 4%, 47%, 0.713) ;
     font-weight: bold;
+}
+#green-p{
+  color:  hsl(71, 73%, 54%);
+  font-weight: bold;
+}
+.flex-section-price-whyUs{
+    display: flex;
+    flex-direction: row;
+    padding:0;
+    justify-content: space-between;
+    color: white;
+    background-color:none;
+    width: 100%;
+}
+.subscription-price-box{
+    line-height: 3rem;
+    padding-top: 1rem;
+    width: 50%;
+    background-color: hsl(179, 62%, 43%);
+    padding:2rem;
+}
+#price{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.dolar-price{
+    display: flex;
+    gap: 0.5rem;
+}
+#per-month{
+    color: rgba(255, 255, 255, 0.444);
+}
+#access,
+ul li{
+    color: rgba(255, 255, 255, 0.879);
+}
+#btn-Price{
+    background-color:hsl(71, 73%, 54%) ;
+    border: none;
+    border-radius: 0.5rem;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    width: 100%;
+    margin-top: 1rem;
+    height: 3rem;
+    cursor: pointer;
+}
+#btn-Price:hover{
+   background-color:white;
+   color:hsl(179, 62%, 43%) ; 
+}
+.whyUs-box{
+    width: 50%;
+    padding-top: 1rem;
+    line-height: 3rem;
+    background-color: hsl(179, 56%, 47%);
+    padding:2rem;
+}
+ul{
+    list-style-type: none;
+    line-height: 1.5rem;
 }
