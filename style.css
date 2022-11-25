@@ -113,6 +113,9 @@ ul{
     .whyUs-box{
         border-radius: 0 0 0.5rem 0.5rem;
     }
+    .subscription-price-box{
+        border-radius: 0;
+    }
 }
 @media(max-width:650px){
     #green-p{  
