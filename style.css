@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:hsl(205, 20%, 83%) ;
+}
+main{
+    width: 50vw;
+    margin: auto;
+    border-radius: 0.5rem;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.541);
+    background-color: white;
+}
+.community{
+    padding: 2rem;
+    line-height: 3rem;
+}
+.lil-text{
+    line-height: 1.5rem; 
+    color:hsla(216, 4%, 47%, 0.713) ;
+    font-weight: bold;
+}
