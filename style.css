@@ -16,9 +16,9 @@ body{
 }
 main{
     width: 50vw;
-    margin: auto;
+    margin: 5rem auto;
     border-radius: 0.5rem;
-    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.541);
+    box-shadow: 0px 10px 40px rgb(0 0 0 / 23%);
     background-color: white;
 }
 .community{
@@ -52,6 +52,7 @@ main{
     width: 50%;
     background-color: hsl(179, 62%, 43%);
     padding:2rem;
+    border-radius: 0 0 0 0.5rem;
 }
 #price{
     font-size: 2rem;
@@ -68,6 +69,7 @@ main{
 ul li{
     color: rgba(255, 255, 255, 0.879);
 }
+
 #btn-Price{
     background-color:hsl(71, 73%, 54%) ;
     border: none;
@@ -90,8 +92,52 @@ ul li{
     line-height: 3rem;
     background-color: hsl(179, 56%, 47%);
     padding:2rem;
+    border-radius: 0 0 0.5rem 0;
 }
 ul{
     list-style-type: none;
     line-height: 1.5rem;
+}
+
+@media(max-width:1234px){
+    .flex-section-price-whyUs{
+        flex-direction: column;
+    }
+    .subscription-price-box,
+    .whyUs-box{
+        width: 100%;
+    }
+    #access{
+        line-height: 1.5rem;
+    }
+    .whyUs-box{
+        border-radius: 0 0 0.5rem 0.5rem;
+    }
+}
+@media(max-width:650px){
+    #green-p{  
+        line-height: 1.5rem;
+    }
+   
+    .lil-text {
+        margin-top: 1rem;
+    }
+}
+@media(max-width:560px){
+    .community {
+        padding: 2rem;
+        line-height: 2rem;
+    }
+    .community h2{
+        margin-bottom: 1rem;
+      }
+    main{
+        width: 70vw;
+    }
+
+}
+@media(max-width:446px){
+    main{
+        width: 90vw;
+    }
 }
